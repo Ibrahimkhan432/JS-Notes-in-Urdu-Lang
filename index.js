@@ -137,3 +137,68 @@
 // a.map((b)=>{
 //     console.log(b);
 // })
+//map array return karta he
+//return me kuch na ho to undefine par return zrur hoga
+let arr = [
+{
+  name:"asad",
+  age:10
+},
+{
+  name:"kaif",
+  age:20
+},
+{
+  name:"imran",
+  age:30
+},
+{
+  name:"khan",
+  age:40
+},
+]
+ let b = arr.map((x,y,z)=>{
+// return x.name;
+// return x.age;
+// return x; // pura object array me milega
+// return y;// sub index milenge
+// return z;// pura array milenge;
+// return x.name.length;// name ki length milenge
+
+ });
+ console.log(b);
+
+
+//1 sare array function me loop chalta  he  
+//2 her func me callback laga hota he
+//3 callback har iteration pe chalta he  
+//4 har aik array func me pehle perimeter me value milti he, dusre me index num , teesre me pura array dubaara mlilta he.
+// let arr = [ "a","b","c"];
+// arr.map((p,q,r) => {
+//   console.log(p);
+//   console.log(q);
+//   console.log(r);
+// });
+
+//*filter
+// array se value nikalne k lie
+
+//*forEach
+// har aik item  par kaam karne k lie
+
+//*reduce
+// comparision k lie use karte he
+
+//*some
+// agar koi value true he to true return karta he
+// matlab k data me kisi ke number me (one zero) ho to true dega
+
+//*every
+// agar sabhi value true he to true return karta he
+
+//*find
+
+
+
+//*findIndex
+// pure array me value ka index find karne k lie
